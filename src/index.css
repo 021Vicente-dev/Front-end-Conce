@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+  user-select: none;
+  box-sizing: border-box;
+  transition: all ease .25s;
+}
+body {
+  background-image: url(../public/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
